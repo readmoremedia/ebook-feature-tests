@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<data>
+    <featureset id="dropcap">
+        <title>Regular Text Dropcap</title>
+        <description></description>
+        <css><![CDATA[
+            .dropcap {
+                font-weight: normal;
+                font-size: 260%;
+                line-height: 1;
+                float: left;
+                padding-right: 5px;
+                margin-top: -0.1%;
+                margin-bottom: -0.3em;
+            }
+            .dropcap3 {
+                font-weight: normal;
+                font-size: 400%; /* for a three-line dropcap */
+                line-height: 1;
+                float: left;
+                padding-right: 5px;
+                margin-top: -0.1%;
+                margin-bottom: -0.3em;
+            }
+        ]]></css>
+        <content>
+            <h2>Default two line dropcap:</h2>
+            <p><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
+            <p><span class="dropcap">Q</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
+
+            <h2>Three line dropcap sample:</h2>
+            <p><span class="dropcap3">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
+            <p><span class="dropcap3">Q</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
+        </content>
+    </featureset>
+</data>
