@@ -1,4 +1,4 @@
-epub-test-files
-===============
+eBook features tests
+====================
 
-Test files for ePub
+Test files for reflowable ebook formats (epub & mobi).
