@@ -17,7 +17,7 @@
             <head>
                 <meta charset="utf-8" />
                 <title><xsl:value-of select="$context/title" /></title>
-                <link rel="stylesheet" type="text/css" href="stylesheet.web.css" />
+                <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.web.css" />
                 <style type="text/css">
                     <xsl:value-of select="$context/css" />
                 </style>
