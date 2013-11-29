@@ -1,31 +1,39 @@
 <html>
-  <head>
-    <meta charset="utf-8"/>
-    <title>Regular Text Dropcap</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.web.css"/>
-    <style type="text/css">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Regular Text Dropcap</title>
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.web.css">
+<style type="text/css">
             .dropcap {
                 font-weight: normal;
                 font-size: 260%;
                 line-height: 1;
                 float: left;
                 padding-right: 5px;
-                margin-top: -0.1%;
+                margin-top: -0.1em;
                 margin-bottom: -0.3em;
             }
+
+            /* for a three-line dropcap */
             .dropcap3 {
                 font-weight: normal;
-                font-size: 400%; /* for a three-line dropcap */
+                font-size: 400%;
                 line-height: 1;
                 float: left;
                 padding-right: 5px;
-                margin-top: -0.1%;
+                margin-top: -0.05em;
                 margin-bottom: -0.3em;
             }
         </style>
-  </head>
-  <body>
-    <div class="featureset">
+</head>
+<body>
+<div id="control-bar" class="cf">
+<div id="toc"><div class="control-button" id="toc-button">Table of Contents</div></div>
+<div id="font-sizer">
+<span title="Decrease font size" class="control-button sizer-button" id="font-smaller">▼</span><span title="Increase font size" class="control-button sizer-button" id="font-larger">▲</span>
+</div>
+</div>
+<div id="featureset" class="cf">
             <h2>Default two line dropcap:</h2>
             <p><span class="dropcap">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
             <p><span class="dropcap">Q</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
@@ -34,5 +42,6 @@
             <p><span class="dropcap3">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
             <p><span class="dropcap3">Q</span>orem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione, qui, sit porro consequatur est sunt ipsum libero sequi quod veritatis natus temporibus impedit aperiam unde iste maxime corporis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, ipsa dolorem porro hic corporis impedit perspiciatis dolore magni eaque! Nemo enim vitae possimus ducimus laborum cupiditate eum voluptas nam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas debitis dolor iusto deserunt officia! Repudiandae, quibusdam, nihil consectetur molestiae non laudantium eligendi harum vero maxime quisquam accusamus cum provident perferendis.</p>
         </div>
-  </body>
+<script src="assets/js/jquery.js"></script><script src="assets/js/web.js"></script>
+</body>
 </html>

@@ -10,16 +10,18 @@
                 line-height: 1;
                 float: left;
                 padding-right: 5px;
-                margin-top: -0.1%;
+                margin-top: -0.1em;
                 margin-bottom: -0.3em;
             }
+
+            /* for a three-line dropcap */
             .dropcap3 {
                 font-weight: normal;
-                font-size: 400%; /* for a three-line dropcap */
+                font-size: 400%;
                 line-height: 1;
                 float: left;
                 padding-right: 5px;
-                margin-top: -0.1%;
+                margin-top: -0.05em;
                 margin-bottom: -0.3em;
             }
         ]]></css>

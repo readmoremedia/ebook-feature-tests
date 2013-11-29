@@ -1,10 +1,19 @@
 body {
-    margin: 2%;
+    margin: 0 30px 30px 30px;
     padding: 0;
     background: #ccc;
 }
 
-div.featureset {
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+div#featureset {
     font-size: 100%;
     padding: 20px;
     margin: 1em auto;
@@ -13,11 +22,42 @@ div.featureset {
     background: #fff;
     box-shadow: 0 0 30px #666;
 }
-div.featureset:before,
-div.featureset:after {
-    content: " ";
-    display: table;
+
+div#control-bar {
+    font-family: sans-serif;
+    font-size: 14px;
+    background: black;
+    color: white;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    min-width: 370px;
+    max-width: 1044px;
 }
-div.featureset:after {
-    clear: both;
+
+div#control-bar .control-button {
+    background: red;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+div#toc {
+    float: left;
+}
+
+div#font-sizer {
+    float: right;
+}
+div#font-sizer .sizer-button {
+    display: inline-block;
+    width: 25px;
+    font-size: 20px;
+}
+span#font-smaller {
+
+}
+span#font-larger {
+    margin-left: 5px;
 }
